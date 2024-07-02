@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Protagonista</title>
+    <link rel="stylesheet" href="prota.css">
+    <script src="prota.js" defer></script>
+</head>
+<body>
+<header>
+   <center> <h1>cineplex</h1></center>
+        <nav id="nav">
+            <div>
+                <button class="buttons" onclick="">Protagonista</button>
+            </div>
+
+            <div>
+                <button class="buttons" onclick="">Filmes</button>
+            </div>
+
+            <div> 
+                <button class="buttons" onclick="cadastro()">Adicionar</button>
+            </div>
+        </nav>
+    </header>
+        
+
+        <form id="buttons" class="cadastrar" onsubmit="cadastrarHeroi(event)">Cadastrar Heroi
+
+         <label>
+            <p>Link de foto do protagonista</p>
+            <input type="url" name="foto" id="id_foto">
+         </label>
+
+         <label>
+            <p>Nome do Protagonista:</p>
+            <input type="text" name="nome" id="id_nome">
+         </label>
+
+         <label>
+            <p>Nome do Filme</p>
+            <input type="text" name="filme" id="id_filme">
+         </label>
+
+         <label>
+            <p>Nome do ator/atriz</p>
+            <input type="text" name="ator" id="id_ator">
+         </label>
+
+         <label>
+            <p>Descrição</p>
+            <input type="text" name="descricao" id="id_descricao">
+         </label>
+
+         <label>
+            <p>Motivação do Protagonista</p>
+            <input type="text" name="Motivacao" id="id_motivacao">
+         </label>
+
+         <button type="submit" id="submit-button" class="buttons">Enviar</button>
+</form>
+<main>
+        </div>
+
+        <div id="Filmes"></div>
+    </main>
+
+
+ 
+    
+
+
+
+</body>
+</html>
